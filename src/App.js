@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
+import TodoHead from './components/TodoHead';
+import TodoList from './components/TodoList';
+import TodoCreate from './components/TodoCreate';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container maxWidth='sm'>
+        <Box style={{ textAlign: 'left' }}>
+          <TodoHead />
+          <TodoList />
+          <TodoCreate />
+        </Box>
+      </Container>
+    </>
   );
 }
 
