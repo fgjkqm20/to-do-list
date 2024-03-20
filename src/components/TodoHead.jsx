@@ -1,14 +1,20 @@
 import Typography from '@mui/material/Typography';
 
+import {
+  titleTypographyProps,
+  subTitleTypographyProps,
+} from '../constants/props.js';
+import getCurrentDate from '../utils/getCurrentDate.js';
+
 function TodoHead() {
+  const { nowYear, nowMonth, nowDate, nowDay } = getCurrentDate();
+
   return (
     <>
-      <Typography variant='h4' component='h1' sx={{ color: '#212121' }}>
-        2024년 03월 20일
+      <Typography {...titleTypographyProps}>
+        {nowYear}년 {nowMonth}월 {nowDate}일
       </Typography>
-      <Typography variant='h5' component='h2' sx={{ color: '#757575' }}>
-        수요일
-      </Typography>
+      <Typography {...subTitleTypographyProps}>{nowDay}요일</Typography>
       <hr />
     </>
   );
