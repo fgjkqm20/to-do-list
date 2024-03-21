@@ -2,7 +2,7 @@ import { grey } from '@mui/material/colors';
 
 /**
  * 날짜 Typography 프로퍼티 객체
- * @typedef {Object}
+ * @type {Object}
  * @property {string} component - 실제로 렌더링될 HTML 요소 또는 컴포넌트
  * @property {string} variant - 스타일 변형
  * @property {string} color - 텍스트 색상
@@ -15,7 +15,7 @@ const dateProps = {
 
 /**
  * 요일 Typography 프로퍼티 객체
- * @typedef {Object}
+ * @type {Object}
  * @property {string} component - 실제로 렌더링될 HTML 요소 또는 컴포넌트
  * @property {string} variant - 스타일 변형
  * @property {string} color - 텍스트 색상
