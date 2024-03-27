@@ -1,7 +1,7 @@
 import Container from '@mui/material/Container';
-import TodoHead from './components/todo-head/TodoHead.js';
-import TodoListWrapper from './components/todo-list/TodoListWrapper.js';
-import TodoForm from './components/todo-form/TodoForm.js';
+import TodoHead from './components/TodoHead/TodoHead.js';
+import TodoListWrapper from './components/TodoList/TodoListWrapper.js';
+import TodoForm from './components/TodoForm/TodoForm.js';
 
 /**
  * Application Main Component
