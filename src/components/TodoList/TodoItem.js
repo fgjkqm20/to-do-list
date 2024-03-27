@@ -1,10 +1,9 @@
 import {
   TodoItemWrapper,
   TodoItemText,
-  TodoItemDelete,
-  TodoItemButton,
-  TodoItemDeleteIcon,
+  DeleteButtonWrapper,
 } from './TodoItemStyles.js';
+import DeleteButton from './DeleteButton.js';
 
 /**
  * To do Item Component
@@ -16,11 +15,9 @@ function TodoItem({ todo }) {
   return (
     <TodoItemWrapper>
       <TodoItemText>{todo}</TodoItemText>
-      <TodoItemDelete>
-        <TodoItemButton aria-label='delete'>
-          <TodoItemDeleteIcon />
-        </TodoItemButton>
-      </TodoItemDelete>
+      <DeleteButtonWrapper>
+        <DeleteButton />
+      </DeleteButtonWrapper>
     </TodoItemWrapper>
   );
 }

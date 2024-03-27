@@ -27,7 +27,7 @@ const TodoItemText = styled(Typography)`
  * @param {object} props - Component props
  * @returns {JSX.Element} Styled Box Component
  */
-const TodoItemDelete = styled(Box)`
+const DeleteButtonWrapper = styled(Box)`
   display: flex;
   align-items: center;
   width: ${(props) => props.theme.typography.fontSize};
@@ -37,11 +37,11 @@ const TodoItemDelete = styled(Box)`
 `;
 
 /**
- * Todo Item Button Component
+ * Styled IconButton Component
  * @param {object} props - Component props
  * @returns {JSX.Element} Styled IconButton Component
  */
-const TodoItemButton = styled(IconButton)`
+const StyledIconButton = styled(IconButton)`
   width: ${(props) => props.theme.typography.fontSize};
   height: ${(props) => props.theme.typography.fontSize};
   padding: 0;
@@ -70,8 +70,8 @@ const StyledCard = styled(Card)(({ theme }) => ({
 export {
   TodoItemWrapper,
   TodoItemText,
-  TodoItemDelete,
-  TodoItemButton,
+  DeleteButtonWrapper,
+  StyledIconButton,
   TodoItemDeleteIcon,
   StyledCard,
 };
