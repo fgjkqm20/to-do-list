@@ -1,5 +1,5 @@
 import Container from '@mui/material/Container';
-import TodoHead from './components/TodoHead/TodoHead.js';
+import TodoDateHeader from './components/TodoHead/TodoDateHeader.js';
 import TodoListWrapper from './components/TodoList/TodoListWrapper.js';
 import TodoForm from './components/TodoForm/TodoForm.js';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Container maxWidth='sm'>
-        <TodoHead />
+        <TodoDateHeader />
         <TodoListWrapper />
         <TodoForm />
       </Container>
