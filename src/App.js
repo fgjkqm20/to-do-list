@@ -5,7 +5,7 @@ import TodoForm from './components/TodoForm/TodoForm.js';
 
 /**
  * Application Main Component
- * @returns {JSX.Element} Application Component
+ * @return {JSX.Element} Application Component
  */
 function App() {
   return (

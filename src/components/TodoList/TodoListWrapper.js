@@ -3,7 +3,7 @@ import TodoList from './TodoList.js';
 
 /**
  * Todo List Wrapper Component
- * @returns {JSX.Element} Styled Card Component
+ * @return {JSX.Element} Styled Card Component
  */
 function TodoListWrapper() {
   return (

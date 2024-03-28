@@ -3,7 +3,7 @@ import CurrentDay from './CurrentDay.js';
 
 /**
  * To do List Header Component
- * @returns {JSX.Element} TodoDateHeader Component
+ * @return {JSX.Element} TodoDateHeader Component
  */
 function TodoDateHeader() {
   return (

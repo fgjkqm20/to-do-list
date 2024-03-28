@@ -4,7 +4,7 @@ import getCurrentDay from '../../utils/getCurrentDay.js';
 
 /**
  * 현재 요일 Component
- * @returns {JSX.Element} Typography Component
+ * @return {JSX.Element} Typography Component
  */
 function CurrentDay() {
   const nowDay = getCurrentDay();

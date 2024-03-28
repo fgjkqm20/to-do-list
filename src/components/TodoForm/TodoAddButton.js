@@ -2,7 +2,7 @@ import { Button } from '@mui/material';
 
 /**
  * To do Add Button Component
- * @returns {JSX.Element} Button Component
+ * @return {JSX.Element} Button Component
  */
 function TodoAddButton() {
   return (

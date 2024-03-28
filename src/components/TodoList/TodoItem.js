@@ -9,7 +9,7 @@ import DeleteButton from './DeleteButton.js';
  * To do Item Component
  * @param {object} props - 할 일 id 및 항목이 포함된 객체
  * @param {string} props.todo - 할 일 항목
- * @returns {JSX.Element} TodoItemWrapper Component
+ * @return {JSX.Element} TodoItemWrapper Component
  */
 function TodoItem({ todo }) {
   return (
@@ -21,5 +21,9 @@ function TodoItem({ todo }) {
     </TodoItemWrapper>
   );
 }
+
+TodoItem.propTypes = {
+  todo: PropTypes.string.isRequired,
+};
 
 export default TodoItem;

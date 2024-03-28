@@ -1,11 +1,11 @@
-import TodoInput from './TodoInput.js';
+import TodoInput from './TodoInput.jsx';
 import TodoAddButton from './TodoAddButton.js';
-import { TodoFormWrapper } from './TodoFormWrapper.js';
+import { TodoFormWrapper } from './TodoFormWrapper.jsx';
 import { FormControlWrapper } from './FormControlWrapper.js';
 
 /**
  * To do Form Component
- * @returns {JSX.Element} TodoFormWrapper Component
+ * @return {JSX.Element} TodoFormWrapper Component
  */
 function TodoForm() {
   return (

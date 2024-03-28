@@ -4,7 +4,7 @@ import getCurrentDate from '../../utils/getCurrentDate.js';
 
 /**
  * 현재 날짜 Component
- * @returns {JSX.Element} Typography Component
+ * @return {JSX.Element} Typography Component
  */
 function CurrentDate() {
   const { nowYear, nowMonth, nowDate } = getCurrentDate();

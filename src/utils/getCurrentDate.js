@@ -1,6 +1,6 @@
 /**
  * 현재 날짜 반환 함수
- * @returns {object}
+ * @return {object}
  * @property {number} nowYear 현재 연도
  * @property {string} nowMonth 현재 월
  * @property {string} nowDate 현재 일
