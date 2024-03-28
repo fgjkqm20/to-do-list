@@ -1,7 +1,6 @@
-import TodoInput from './TodoInput.jsx';
+import TodoInput from './TodoInput.js';
 import TodoAddButton from './TodoAddButton.js';
-import { TodoFormWrapper } from './TodoFormWrapper.jsx';
-import { FormControlWrapper } from './FormControlWrapper.js';
+import { TodoFormWrapper, FormControlWrapper } from './TodoFormStyles.js';
 
 /**
  * To do Form Component
